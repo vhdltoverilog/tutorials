@@ -1,0 +1,277 @@
+
+                 <!DOCTYPE html>
+                 <html lang="en">
+                 <head>
+                     <meta charset="UTF-8">
+                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+                         crossorigin="anonymous">
+                     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+                     <link rel="stylesheet" href="../style.css">
+                     <link rel="stylesheet" href="../style-page-example.css">
+                     <link rel="icon" href="../favicon-16x16.png" type="image/gif" sizes="16x16">
+                     <title>vhdl2verilog</title>
+                 </head>
+                 
+                 <body>
+                     <main>
+                         <div class="test-main-page-home">
+                             <div class="main-div">
+                                 <div class="logo">
+                                     <img  src="../android-chrome-192x192.png" alt="logo">
+                                     
+                                 </div>
+                                 <div id ="title-head">
+                                 <header>vhdltoverilog.com</header>
+                                 </div>
+                         <br>
+                     <br>
+                     <br>
+                             
+                                 <div class="topnav" id="myTopnav">
+                                     <a href="../home.html" class="active">Home</a>
+                                     <a href="../tutorials/list-of-contents.html">Tutorials</a>
+                                     <a href="../examples/list-of-examples.html">Examples</a>
+                                     
+                                     <a href="../converter/vhdl-to-verilog.php">Converter</a>
+                                     <a href="../about.html">About</a>
+                                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                       <i class="fa fa-bars"></i>
+                                     </a>
+                                   </div>
+                              <div class="main-page-example">
+                                <div class="container button-borders">
+                                <div class="pre-btn"><a href="../tutorials/Logical-operators.html" >previous page</a></div>
+                                <div class="nxt-btn"><a href="../home.html">next page</a></div>
+                                </div>
+                                <br>
+                                <hr>
+                                <br>
+                                <div class="content-div">
+                
+                                    <div>
+                                        <h1 class="tut-h1">Relational operators</h1>
+                                        <p class="tut-para">Relational Operators are implemented to compare the values
+                                            of two objects.The results is boolean.
+                                        </p>           
+                                        </div>
+                                        
+                                    <DIV>
+                                       <h2 class="tut-h1">VHDL relational operators</h2>
+                                       <div>
+                                        <table class="tut-table">
+                                            <tbody class="tut-tbody">
+                                               <tr>
+                                                   <th style="text-align: center;">operators</th>
+                                                   <th>description</th>
+                                                   <th>operand type</th>
+                                                   <th>result type</th>
+                                               </tr>
+                                               <tr>
+                                                   <th>=</th>
+                                                   <th>Equality</th>
+                                                   <th>Any type</th>
+                                                   <th>boolean</th>
+                                               </tr>
+                                               <tr>
+                                                <th>/=</th>
+                                                <th>Inequality</th>
+                                                <th>Any type</th>
+                                                <th>boolean</th>
+                                            </tr>
+                                            <tr>
+                                                <th><</th>
+                                                <th>less than</th>
+                                                <th>scalar</th>
+                                                <th>boolean</th>
+                                            </tr>
+                                            <tr>
+                                                <th><=</th>
+                                                <th>less than or equal</th>
+                                                <th>scalar</th>
+                                                <th>boolean</th>
+                                            </tr>
+                                            <tr>
+                                                <th>></th>
+                                                <th>greater than</th>
+                                                <th>scalar</th>
+                                                <th>boolean</th>
+                                            </tr>
+                                            <tr>
+                                                <th>>=</th>
+                                                <th>greater than or equal</th>
+                                                <th>scalar</th>
+                                                <th>boolean</th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                        
+                                    </div>
+                                    <DIV>
+                                        <h2 class="tut-h1">verilog relational operators</h2>
+                                        <div>
+                                         <table class="tut-table">
+                                             <tbody class="tut-tbody">
+                                                <tr>
+                                                    <th style="text-align: center;">operators</th>
+                                                    <th>description</th>
+                                                    
+                                                    <th>result type</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>==</th>
+                                                    <th>Equality</th>
+                                                    <th>0,1,x</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>!=</th>
+                                                    <th>inequality</th>
+                                                    <th>0,1,x</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>===</th>
+                                                    <th>Equality inclusive</th>
+                                                    <th>0,1</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>==</th>
+                                                    <th>Inequality inclusive</th>
+                                                    <th>0,1</th>
+                                                </tr>
+                                                <tr>
+                                                    <th><</th>
+                                                    <th>less than</th>
+                                                    <th>0,1,x</th>
+                                                </tr>
+                                                <tr>
+                                                    <th><=</th>
+                                                    <th>less than or equal</th>
+                                                    <th>0,1,x</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>></th>
+                                                    <th>greater than</th>
+                                                    <th>0,1,x</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>>=</th>
+                                                    <th>greater than or equal</th>
+                                                    <th>0,1,x</th>
+                                                </tr>
+                                             </tbody>
+                                         </table>
+                                     </div>
+                                         
+                                     </div>
+                                   
+                                           
+                                <hr>
+                                <div class="container button-borders" id="bottom_navigation">
+                                    <div class="pre-btn">
+                                    <a href="../tutorials/Logical-operators.html"> Previous Page</a>
+                                    </div>
+                                    <div class="nxt-btn">
+                                    <a href="../home.html">Next Page </a>
+                                    </div>
+                                    </div>
+                                   
+                                    <br>
+                                    <br>
+                                  
+                                    </div>
+                                    </div>
+                        </div>
+                        <footer>
+                            <div id="left-footer">
+                                <h3>Quick Links</h3>
+                                <p>
+                                    <ul>
+                                        <li>
+                                            <a href="../home.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="../about.html">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="../privacy-policy.html">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="../converter/vhdl-to-verilog.php">converter</a>
+                                        </li>
+                                        <li>
+                                            <a href="../examples/list-of-examples.html">Examples</a>
+                                        </li>
+                                        <li>
+                                            <a href="../contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        
+                            <div id="right-footer">
+                                <h3>Follow us on</h3>
+                                <div id="social-media-footer">
+                                    <ul>
+                                        <li>
+                                            <a href="https://facebook.com/" target="_blank">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/">
+                                                <i class="fab fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/">
+                                                <i class="fab fa-github"></i>
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <p>This website is developed by Me</p>
+                            </div>
+                        </footer>
+                
+                </main>
+                <script src="../main.js"></script>
+                </body>
+                </html>
+                    
+                
+                    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                                
+
+
+
+
+
+
+
+
+
+
